@@ -33,6 +33,9 @@ export class PiselloComponent {
       if(el.select){
         v ? el.value += 1 : el.value += -1
       }
+      if(el.value<0){
+        el.value = 0
+      }
       return el
     })
 
