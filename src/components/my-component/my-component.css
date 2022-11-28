@@ -1,0 +1,26 @@
+:host {
+  display: block;
+}
+
+.selected{
+  opacity: 0.8;
+}
+.not-selected{
+  opacity: 1;
+}
+
+.clicked{
+  fill: red;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+}
+.border{
+  border: 1;
+}
+
+button{
+  margin: 1em
+}

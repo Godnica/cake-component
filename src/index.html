@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" />
+    <title>Stencil Component Starter</title>
+
+    <script type="module" src="/build/web-components.esm.js"></script>
+    <script nomodule src="/build/web-components.js"></script>
+  </head>
+  <body>
+    <h1>Clicca le sezioni che vuoi incremendare o decrementare e regola le sezioni con i rispettivi pulsanti</h1>
+    <my-component
+    style="margin-top: 200px;" 
+    data='[
+      {
+        "value": 2,
+        "tag": "Netflix"
+      },
+      {
+        "value": 5,
+        "tag": "Amazon Prime"
+      },
+      {
+        "value": 8,
+        "tag": "Disney Plus"
+      },
+      {
+        "value": 2,
+        "tag": "Apple tv"
+      },
+      {
+        "value": 5,
+        "tag": "other"
+      }
+    ]'
+    ></my-component>
+  </body>
+</html>
